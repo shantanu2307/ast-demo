@@ -1,0 +1,7 @@
+node_modules
+dist
+logs
+.swc
+*.tsbuildinfo
+__tests__
+__fixtures__

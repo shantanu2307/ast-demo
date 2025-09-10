@@ -1,0 +1,47 @@
+{
+  "name": "function-changer",
+  "version": "1.0.0",
+  "main": "scripts/change-function-invocation.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc -p ./tsconfig.json --noEmit --pretty --skipLibCheck",
+    "fix": "ts-node .",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  },
+  "author": "Shantanu Goyal <shantanugoyal23@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^8.0.1",
+    "fs": "^0.0.1-security",
+    "jscodeshift": "^0.15.2",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "recast": "^0.23.7",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8",
+    "@types/react": "^19.1.5",
+    "@types/jest": "^29.5.14",
+    "@types/jscodeshift": "^0.11.11",
+    "@types/lodash": "^4.17.17",
+    "@types/node": "^22.15.21",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "ast-types": "0.16.1",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "globals": "^16.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "ts-node": "^10.9.2",
+    "typescript-eslint": "^8.32.1"
+  }
+}
